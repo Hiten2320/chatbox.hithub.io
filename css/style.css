@@ -1,0 +1,86 @@
+body{
+    background-image: linear-gradient(rgb(17, 16, 17), rgb(0, 238, 255));
+}
+.logo{
+    display: flex;
+    margin: auto;
+    width: 55px;
+    height: 55px;
+}
+.links{
+    flex: 1;
+    text-align: right;
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.links ul li a{
+    font-size: 30px;
+    color: black;
+    padding: 8px;
+    font-weight: 600;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+}
+.container{
+    max-width: 995px;
+    border: 4px solid black;
+    padding: 33px;
+    margin: auto;
+    height: 60vh;
+    overflow: auto;
+    margin-bottom: 23px;
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgb(4,9,30,0.3));
+}
+.message{
+    color: azure;
+    width: 24%;
+    padding: 10px;
+    border: 2px solid antiquewhite;
+    border-radius: 20px;
+    margin: 17px 7px;
+    font-size: 18px;
+    font-family: cursive;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#messageInp{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 34px;
+    font-size: 18px;
+    font-family: cursive;
+}
+.btn{
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40px;
+    margin: 5px;
+}
